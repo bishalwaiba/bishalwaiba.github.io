@@ -1,0 +1,97 @@
+html{
+    background-color: greenyellow;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Commissioner', sans-serif;
+}
+
+.header {
+    background-color: red;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 52px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo{
+    margin-left: 165px;
+}
+
+.nav{
+    margin-right: 166px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+
+.hamburger{
+    display: none;
+}
+
+.card-container {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    margin-top: -92px;
+    border-radius: 6px;
+}
+
+.card-container .master-logo img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cardbox {
+    border: 1px solid black;
+}
+
+.cardbox h2{
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 35px;
+}
+
+/*adding the media query for the breakpoint of the screen*/
+@media only screen and (max-width:375px){
+    .header {
+    background-image: url(images/image-hero-mobile.jpg);
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 32px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+
+    .nav{
+        display: none;
+    }
+
+    .logo {
+        margin-left: 23px;
+    }
+
+    .hamburger{
+        display: block;
+        margin-left: 180px;
+        margin-right: 25px;
+    }
+}
