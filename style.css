@@ -68,7 +68,7 @@ body {
 }
 
 /*adding the media query for the breakpoint of the screen*/
-@media only screen and (max-width:375px){
+@media only screen and (max-width:641px){
     .header {
     background-image: url(images/image-hero-mobile.jpg);
     height: 300px;
