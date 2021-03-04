@@ -240,11 +240,12 @@ body {
     .cardbox p{
         color: hsl(0, 0%, 48%);
         padding-top: 27px;
-        padding-bottom: 30px;
+        padding-bottom: 27px;
+        padding-left: 23px;
+        padding-right: 23px;
     }
     
     .button1{
-        position: relative;
         border: none;
         outline: none;
         background-color: hsl(176, 50%, 47%);
@@ -258,7 +259,7 @@ body {
         padding-left: 30px;
         padding-right: 30px;
         margin-bottom: 39px;
-        margin-right: 5%;
+        margin-right: auto;
     }
     
     .button2{
@@ -266,7 +267,7 @@ body {
     }
 
     .circle{
-        margin-top: 4%;
+        margin-right: auto;
         width: 47px;
         height: 47px;
         background-color: hsl(0, 0%, 0%);
